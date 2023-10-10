@@ -1,0 +1,92 @@
+[
+  {
+    "model": "photos.accesstier",
+    "pk": 1,
+    "fields": {
+      "name": "Basic Photo",
+      "original_links": "False",
+      "expiring_links": "False"
+    }
+  },
+  {
+    "model": "photos.accesstier",
+    "pk": 2,
+    "fields": {
+      "name": "Premium Photo",
+      "original_links": "True",
+      "expiring_links": "False"
+    }
+  },
+  {
+    "model": "photos.accesstier",
+    "pk": 3,
+    "fields": {
+      "name": "Enterprise Photo",
+      "original_links": "True",
+      "expiring_links": "True",
+      "expiration_time": 300
+    }
+  },
+  {
+    "model": "photos.thumbnail",
+    "pk": 1,
+    "fields": {
+      "name": "Small_Thumbnail",
+      "width": 200,
+      "height": 200,
+      "access_tier_id": 1
+    }
+  },
+  {
+    "model": "photos.thumbnail",
+    "pk": 2,
+    "fields": {
+      "name": "Large_Thumbnail",
+      "width": 400,
+      "height": 400,
+      "access_tier_id": 2
+    }
+  },
+  {
+    "model": "photos.thumbnail",
+    "pk": 3,
+    "fields": {
+      "name": "Small_Thumbnail",
+      "width": 200,
+      "height": 200,
+      "access_tier_id": 2
+    }
+  },
+  {
+    "model": "photos.thumbnail",
+    "pk": 4,
+    "fields": {
+      "name": "Large_Thumbnail",
+      "width": 400,
+      "height": 400,
+      "access_tier_id": 3
+    }
+  },
+  {
+    "model": "photos.thumbnail",
+    "pk": 5,
+    "fields": {
+      "name": "Small_Thumbnail",
+      "width": 200,
+      "height": 200,
+      "access_tier_id": 3
+    }
+  },
+  {
+    "model": "photos.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$7rdn9oncgEOEBpbvUKm1tP$Dwec3cXfx+768s0bjEJnXaBx7ntKKGIt34zQlCutI0w=",
+      "username": "admin",
+      "is_superuser": 1,
+      "is_staff": 1,
+      "is_active": 1,
+      "access_level_id": 3
+    }
+  }
+]
