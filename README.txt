@@ -9,6 +9,8 @@
 - python manage.py loaddata initial.json => it initializes Access Tiers data with required thumbnails settings along with first superuser u:admin p:admin
 - python manage.py runserver => to run application locally
 
+Remember to add .env file! with KEY, DEBUG and SECRET_KEY defined
+
 All information about API can be found under http://localhost:8000/rest-api/
 APISwagger is available under http://localhost:8000/swagger
 
