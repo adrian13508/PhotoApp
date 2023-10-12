@@ -8,3 +8,4 @@ Adrian_Kurowski_PhotoApp.zip
 db.sqlite3
 pyvenv.cfg
 PhotoApp/settings.py
+static

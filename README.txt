@@ -1,13 +1,5 @@
-1. Unzip package in new directory (Adrian_Kurowski_PhotoApp directory should create in Your directory)
-2. Open terminal in Your directory 
-3. In terminal: 
-- run python -m venv env => to create Virtual Environment
-- run source env/bin/activate => to activate environment
-- run cd Adrian_Kurowski_PhotoApp/ => to enter application directory
-- run pip install -r requirements.txt => to install all packages needed to run application
-- run python manage.py migrate => this creates database needed to run application
-- run python manage.py loaddata initial.json => it initializes Access Tiers data with required thumbnails settings along with first superuser u:admin p:admin
-- run python manage.py runserver => to run application locally
+Please note that for proper work You need to create .env ans settings.py files.
+Those files are not included in repository due to security reasons.
 
 All information about API can be found under http://localhost:8000/rest-api/
 APISwagger is available under http://localhost:8000/swagger
